@@ -1,0 +1,67 @@
+.lpn-stepper-next-btn{
+    font-size: 1.5rem;
+    float: right;
+    padding:0
+}
+
+.lpn-stepper-previous-btn{
+    font-size: 1.5rem;
+    float: left;
+    padding:0
+}
+
+
+
+.lpn-add-button{
+    font-size: 36px;
+    float: right;
+    color: var(--primary-text-color);
+    font-weight: lighter;
+}
+
+.lpn-add-button-sm{
+    font-size: 30px;
+    float: right;
+    color: var(--primary-text-color);
+    font-weight: lighter;
+}
+
+.lpn-add-button:hover, .lpn-add-button-sm:hover, .lpn-confirm-button-lg:hover, .lpn-forgot-pwd-button:hover, .lpn-stepper-next-btn:hover, .lpn-stepper-previous-btn:hover{
+    color: var(--highliht-color);
+    background-color: transparent;
+}
+
+.lpn-confirm-button-lg{
+    font-size: 36px;
+    float: right;
+    color: var(--primary-text-color);
+    font-weight: lighter;
+}
+
+.lpn-login-button{
+    width: 100%;
+    max-width:100%;
+    height: 58px;
+    padding: 0 16px ;
+    font-size: 1rem;
+    float: right;
+    color: var(--bg-color);
+    font-weight: lighter;
+    background-color: var(--primary-text-color);
+    border: var(--primary-text-color)
+}
+.lpn-login-button:hover{
+    background-color: var(--highliht-color);
+    color: var(--bg-color);
+}
+
+.lpn-forgot-pwd-button{
+    float: right;
+    background-color: var(--bg-color);
+    color: var(--secondary-text-color);
+    border: none;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    padding: 8px 0;
+}
+

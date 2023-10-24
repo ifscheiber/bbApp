@@ -1,0 +1,4 @@
+id_account_number,dt_invoice,invoice_doc_num,data_category,optimization_factor,total_firm_div,allowance_ratio,allowance_cap,allowance
+30395902,2022-09-01,6650305679,SEC MASTER,3.00105,3045.85,10.0,500.0,15.00525
+30314240,2022-09-01,6650305668,SEC MASTER,2.74744,3045.85,10.0,500.0,13.7372
+30314240,2022-09-01,6650305668,CREDIT RISK,100.0,5.87,10.0,500.0,105.66

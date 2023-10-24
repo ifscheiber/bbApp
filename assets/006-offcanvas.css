@@ -1,0 +1,24 @@
+.lpn-offcanvas.offcanvas{
+    max-width: 600px;
+}
+
+.lpn-offcanvas.dark-mode{
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
+    font-weight: lighter;
+    padding-top: 36.3px;
+}
+
+.offcanvas-title{
+    color: var(--highliht-color);
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+
+}
+
+.btn-close {
+    filter: invert(91%) sepia(86%) saturate(342%) hue-rotate(145deg) brightness(98%) contrast(102%);
+    /*filter: invert(77%) sepia(21%) saturate(488%) hue-rotate(131deg) brightness(94%) contrast(91%);
+    filter: invert(63%) sepia(12%) saturate(1004%) hue-rotate(131deg) brightness(101%) contrast(89%);*/
+}
+

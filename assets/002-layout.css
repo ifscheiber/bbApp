@@ -1,0 +1,170 @@
+/* Note: The @media command currently has no effect!*/
+.lpn-padding-right-4px {
+    padding-right: 4px;
+}
+
+
+.mb-2rem{
+    margin-bottom: 2rem !important;
+}
+
+.lpn-negative-margin-top-6px{
+    margin-top: -6px
+}
+
+.lpn-extra-margin-left-4px{
+    margin-left: 4px
+}
+
+.lpn-extra-margin-right-24px{
+    margin-right: 24px
+}
+
+.lpn-extra-margin-left-12px{
+    margin-left: 12px
+}
+
+.lpn-extra-margin-top-10px{
+    margin-top: 10px
+}
+
+.lpn-extra-margin-top-5px{
+    margin-top: 5px
+}
+
+.lpn-extra-margin-top-30px{
+    margin-top: 30px
+}
+
+.lpn-extra-margin-top-40px{
+    margin-top: 40px
+}
+
+.lpn-extra-margin-top-42px{
+    margin-top: 45px;
+}
+
+.lpn-extra-margin-bottom-25px{
+    margin-bottom: 25px
+}
+
+.lpn-extra-margin-top-20px{
+    margin-top: 20px;
+}
+
+.lpn-extra-margin-top-10px{
+    margin-top: 10px;
+}
+
+.lpn-extra-margin-bottom-50px{
+    margin-bottom: 50px
+}
+
+.lpn-extra-margin-top-25px{
+    margin-top: 25px
+}
+
+.lpn-row-no-padding-lr{
+    padding-left: 0 ;
+    padding-right: 0
+}
+
+.lpn-row-no-padding-l{
+    padding-left: 0 ;
+}
+
+.lpn-datepicker-col{
+    padding-right: 0;
+    padding-left: 24px;
+}
+
+.lpn-extra-padding-bottom-12px{
+    padding-bottom: 12px;
+}
+
+.lpn-left-col{
+    padding-left: 0 ;
+    padding-right: 1.25rem;
+}
+
+.lpn-right-col{
+    padding-left: 1.25rem;
+    padding-right: 0 ;
+}
+
+.lpn-page-header-margin {
+    margin-bottom: 50px
+}
+
+main {
+    flex: 1;
+    display: flex;
+    /*align-items: center ; /* Vertically aligns content in the center */
+    /*justify-content: center;  /*Horizontally aligns content in the center */
+    padding-top: 120px;
+    min-height: calc(100vh - 96px);
+}
+
+@media {
+    .app-layout{
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 96px);
+    }
+
+
+    .dash-app-content{
+        flex: 1;
+        background-color: var(--bg-color);
+    }
+
+    .lpn-dark-mode{
+        background-color: var(--bg-color);
+
+    }
+
+    .lpn-height-complete{
+        padding-top: 189.5px;
+        padding-bottom: 150px;
+    }
+
+    .lpn-block {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .lpn-top {
+        padding-top: 130px;
+        padding-bottom: 50px
+    }
+
+    .lpn-bottom {
+        padding-bottom: 50px !important;
+    }
+
+
+    .lpn-form {
+        padding-top: 0px !important;
+        padding-bottom: 50px;
+        min-height: 65.3vh !important;
+    }
+
+    .lpn-tab {
+        padding-top: 178.66px !important;
+        padding-bottom: 0px !important;
+    }
+
+
+
+
+
+    .block-heading {
+        padding-top: 0px !important;
+    }
+
+    .dark-mode .clean-cancel-button {
+        padding-top: 20px;
+        padding-bottom: 0px
+    }
+
+}

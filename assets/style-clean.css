@@ -1,0 +1,46 @@
+@media {
+  .clean-block {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: red;
+  }
+
+    .clean-cancel-button {
+    padding-top: 20px;
+    padding-bottom: 0px
+  }
+
+
+  .block-heading {
+    padding-top: 0px !important;
+  }
+
+  .clean-top {
+    padding-top: 120px !important;
+    padding-bottom: 50px
+  }
+
+  .clean-form {
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+    min-height: 65.3vh !important;
+  }
+
+
+  .clean-tab {
+    padding-top: 178.66px !important;
+    padding-bottom: 0px !important;
+  }
+
+
+  .clean-bottom {
+    padding-bottom: 50px !important;
+  }
+}
+
+.clean-dark{
+  background-color: red;
+}
+
+
+

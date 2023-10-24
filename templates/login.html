@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://127.0.0.1:8050/">
+    <meta property="twitter:title" content="Board Client">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+    <meta property="og:title" content="Board Client">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Board Client</title>
+    <link rel="icon" type="image/x-icon" href="/_favicon.ico?v=2.13.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="icon" type="image/x-icon" href="/_favicon.ico?v=2.13.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="/assets/001-colorscheme.css?m=1694383131.9049256">
+    <link rel="stylesheet" href="/assets/001-datepicker_single_floating_form.css?m=1694349731.302846">
+    <link rel="stylesheet" href="/assets/001-lepnode-brand.css?m=1694393118.6742058">
+    <link rel="stylesheet" href="/assets/002-layout.css?m=1694395249.7018597">
+    <link rel="stylesheet" href="/assets/003-forms.css?m=1694383315.5795732">
+    <link rel="stylesheet" href="/assets/004-buttons.css?m=1694357719.2525046">
+    <link rel="stylesheet" href="/assets/005_ag-grid.css?m=1694383196.5498638">
+    <link rel="stylesheet" href="/assets/006-offcanvas.css?m=1694383315.5595727">
+    <link rel="stylesheet" href="/assets/007_cards.css?m=1694358263.047416">
+    <link rel="stylesheet" href="/assets/style-clean.css?m=1694393025.2847414">
+    <link rel="stylesheet" href="/assets/style-footer.css?m=1694383080.8121781">
+    <link rel="stylesheet" href="/assets/style-navbar.css?m=1694391533.89068">
+    <link rel="stylesheet" href="/assets/visualization-item.css?m=1692610679.043214">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+    <title>DL Billing Login</title>
+    <!-- Add all your stylesheets here -->
+</head>
+
+
+<body class="app-layout">
+
+    <nav id="navbar-login" class="navbar navbar-expand-md fixed-top navbar-light lpn-dark-mode">
+        <a class="navbar  logo lpn-logo-login" href="https://leapnode.hi.link/" >
+            <img id="navbar-logo-login" src="assets/leap_node_logo.png" class="lpn-logo-img">
+        </a>
+    </nav>
+
+    <main  class="lpn-dark-theme app-layout ">
+            <form id="form-login" method="POST" action="/login" class="container">
+                <div><span style="color:red">{{message}}</span></div>
+                <div class="form-floating lpn-form-element-dark-mode lpn-margin-lr">
+                    <input name='email' type="email" class="form-control mb-3 lpn-extra-margin-top-20px lpn-form-element-dark-mode" id="uname-box" placeholder="Email">
+                    <label for="uname-box">Email</label>
+                </div>
+                <div class="form-floating lpn-form-element-dark-mode lpn-margin-lr">
+                    <input name='password' type="password" class="form-control mb-3 lpn-extra-margin-top-20px lpn-form-element-dark-mode" id="pwd-box" placeholder="Password">
+                    <label for="pwd-box">Password</label>
+                    <button type="submit" id="login-button" class="lpn-login-button btn ">Login</button>
+                    <!-- Forgot Password Button -->
+                    <button type="button" id="forgot-password-button" class="lpn-forgot-pwd-button" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">
+                        Forgot Password?
+                    </button>
+                </div>
+            </form >
+
+        <!-- Forgot Password Modal -->
+            <div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="forgotPasswordModalLabel">Forgot Password</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="forgot-password-form" action="/recover_password" method="POST">
+                                <div class="form-floating lpn-form-element-dark-mode lpn-margin-lr">
+                                    <input name='recovery-email' type="email" class="form-control mb-3 lpn-extra-margin-top-20px lpn-form-element-dark-mode" id="recovery-email-box" placeholder="Recovery Email">
+                                    <label for="recovery-email-box">Enter your e-mail</label>
+                                </div>
+                                <button type="submit" id="recover-button">Recover</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+<footer class="footer-basic">
+    <ul class="list-inline"></ul>
+    <p class="copyright">&copy LeapNode 2023</p>
+</footer>
+
+<script src="../assets/js_001_login.js"></script>
+</body>
+</html>
+

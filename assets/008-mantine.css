@@ -1,0 +1,320 @@
+.mantine-Stepper-step{
+    color: var(--secondary-text-color);
+}
+
+.mantine-Stepper-stepDescription{
+    color: var(--secondary-text-color);
+
+}
+
+.mantine-Stepper-content{
+    margin-top: 50px;
+}
+
+
+
+.mantine-Stepper-separator{
+    background-color: var(--secondary-text-color);
+}
+
+/* control stepper progress, & icons*/
+.mantine-t0hut7 {
+    box-sizing: border-box;
+    height: 36px;
+    width: 36px;
+    min-width: 36px;
+    border-radius: 32px;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    border: 1px solid var(--secondary-text-color);
+    transition: background-color 150ms ease 0s, border-color 150ms ease 0s;
+    position: relative;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.mantine-t0hut7[data-progress] {
+    border-color: var(--highliht-color);
+    color: var(--highliht-color);
+    background-color: var(--secondary-bg-color);
+}
+.mantine-Stepper-step[data-progress]{
+    color: var(--highliht-color);
+}
+
+.mantine-t0hut7[data-completed] {
+    border-color: var(--secondary-text-color);
+    background-color: var(--secondary-text-color);
+}
+.mantine-1sexun9 {
+    color: var(--bg-color);
+}
+
+
+/* Controls inactive separator */
+.mantine-lpco65 {
+    box-sizing: border-box;
+    transition: background-color 150ms ease 0s;
+    flex: 1 1 0;
+    height: 2px;
+    background-color: var(--lpn-bg-dark);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+@media(min-width: 768px){
+    button.mantine-Stepper-step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mantine-Stepper-stepBody{
+        margin: 0;
+    }
+    .mantine-Stepper-stepLabel{
+        margin: 12px auto 0;
+    }
+
+    .mantine-Stepper-separator{
+        transform: translateY(-14px);
+    }
+
+
+}
+
+
+/* Accordion*/
+.mantine-pildck {
+    color: var(--primary-text-color);
+    font-family: var(--bs-body-font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    flex: 1 1 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mantine-Accordion-control[data-active="true"] >  .mantine-Accordion-label, .mantine-Accordion-control[data-active="true"] >  .mantine-Accordion-chevron{
+    color: var(--highliht-color) ;
+}
+
+
+.mantine-v4lv9f{
+    border-bottom-color: var(--lpn-bg-dark);
+}
+
+.mantine-v4lv9f:first-child{
+    /*border-top: 1px solid var(--lpn-bg-dark);*/
+}
+
+.mantine-Accordion-chevron{
+    color: var(--primary-text-color);
+}
+
+.mantine-9qwtf1:hover {
+    background-color: inherit;
+}
+
+.mantine-pildck:hover{
+    color: var(--highliht-color);
+}
+
+
+.mantine-ukbbnm {
+    padding: calc(5px) 0 16px 42px;
+
+}
+.mantine-ukbbnm.inner-table {
+    padding: calc(5px) 0 0 42px;
+
+}
+
+
+.mantine-Accordion-content{
+    padding-top: 12px;
+    padding-bottom: 50px;
+}
+
+
+
+.mantine-Accordion-panel.inner-table.mantine-1supnlp .mantine-ukbbnm.mantine-Accordion-content{
+    padding-top: 0;
+    padding-bottom: 62px;
+}
+
+/**
+/Date picker Stylings
+ */
+.mantine-DatePicker-label {
+    color: var(--primary-text-color);
+    font-size: 0.925rem;
+}
+
+.mantine-DatePicker-input {
+    color: var(--primary-text-color);
+    background-color: var(--bg-color);
+    max-width: 220px;
+    border: none;
+
+    font-size: 1rem;
+}
+
+.mantine-DatePicker-rightSection{
+    color: var(--primary-text-color);
+    pointer-events: none;
+    padding: 0;
+    margin-top: -6px
+}
+
+.mantine-DatePicker-icon {
+    color: var(--primary-text-color);
+    pointer-events: none;
+    padding: 0;
+    margin-top: -6px
+}
+
+
+.mantine-DatePicker-wrapper {
+    max-width: 220px;
+    padding: 0;
+}
+
+/**
+/Select Stylings
+ */
+.mantine-Select-label {
+    color: var(--primary-text-color);
+    font-size: 0.925rem;
+}
+
+.mantine-Select-input{
+    color: var(--primary-text-color);
+    background-color: var(--bg-color);
+    max-width: 220px;
+    border: none;
+    font-size: 0.925rem;
+}
+
+.mantine-Select-dropdown{
+    max-width: 200px;
+    color: var(--primary-text-color);
+}
+
+.mantine-14pisoh:disabled {
+    background-color: var(--bg-color);
+    color: var(--lpn-bg-dark);
+    opacity: 1;
+    cursor: not-allowed;
+}
+
+
+
+.mantine-Select-wrapper {
+    max-width: 200px;
+    color: var(--primary-text-color);
+    padding: 0;
+}
+
+.mantine-Select-rightSection{
+    color: var(--lpn-bg-dark);
+    pointer-events: none;
+    padding: 0;
+}
+
+.mantine-Select-description{
+    color: var(--secondary-text-color);
+}
+
+
+.mantine-Card-root{
+    color: var(--primary-text-color);
+    background-color: var(--bg-color);
+    border: none;
+    padding: 0;
+}
+
+/*
+ Segmented Control Settings
+*/
+.mantine-SegmentedControl-root{
+    color: var(--primary-text-color);
+    background-color: var(--bg-color);
+}
+.mantine-SegmentedControl-label {
+    color: var(--primary-text-color);
+}
+
+.mantine-SegmentedControl-controlActive{
+    background-color: var(--lpn-bg-dark);
+    border: none;
+}
+
+.mantine-SegmentedControl-active{
+    background-color: var(--bg-color);
+}
+
+.mantine-SegmentedControl-label:hover{
+    color: var(--highliht-color);
+}
+
+.mantine-SegmentedControl-control{
+    border-color: var(--highliht-color);
+}
+
+.mantine-s28z26:not(:first-of-type){
+    border-color: var(--primary-text-color);
+}
+
+/*
+ Tabs
+*/
+.mantine-Tabs-root {
+    color: var(--primary-text-color);
+    background-color: var(--bg-color);
+}
+
+.mantine-Tabs-tabsList {
+    border-bottom: 2px solid var(--lpn-bg-dark);
+}
+
+.mantine-Tabs-tab {
+    padding: 10px 24px;
+
+}
+
+.mantine-Tabs-tabLabel {
+    padding: 0;
+    color: var(--secondary-text-color);
+    font-weight: bolder;
+}
+
+.mantine-Tabs-tabLabel:hover, .mantine-Tabs-tab:hover {
+    background-color:  #344E63;
+    border-color: inherit;
+}
+
+.mantine-123gri0[data-active] {
+    border-color: var(--primary-text-color);
+}
+
+.mantine-123gri0[data-active] .mantine-Tabs-tabLabel  {
+    border-color: var(--primary-text-color);
+    color: var(--primary-text-color);
+}
+
+
+.mantine-123gri0[data-active]:hover {
+    border-color: var(--primary-text-color);
+}
+
+
+.mantine-Tabs-panel {
+    margin-left: 24px;
+    margin-top: 36px;
+}

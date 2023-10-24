@@ -1,0 +1,123 @@
+.test-borders{
+    border: none;
+    background-color: var(--bg-color);
+}
+
+
+
+.test-card-header{
+    color: var(--primary-text-color);
+    border-bottom: none;
+    /*border-bottom: 1px solid var(--lpn-bg-dark);*/
+}
+
+.lpn-cards-without-border{
+    background-color: var(--bg-color);
+    padding: 0 0 0 12px;
+    border: none;
+    color: var(--primary-text-color);
+
+}
+
+.lpn-cards-without-border.card-body{
+    padding: 0 0 0 30px;
+}
+
+.padding-left-12px{
+    padding-left: 24px;
+}
+
+.margin-left-24px{
+    padding-left: 24px;
+}
+
+.lpn-cards-without-border.card-body.lpn-pie-chart{
+    padding: 0 ;
+}
+
+
+@media (min-width: 1400px) {
+    .lpn-cards-without-border.card-body.lpn-pie-chart{
+        padding: 0 ;
+        margin-right: 0px;
+
+    }
+}
+
+
+.card-pie-chart{
+    width: 306px;
+}
+
+.lpn-detail-graph {
+    margin-top: 20px;
+}
+
+.lpn-detail-graph-fc {
+    margin-top: 14px;
+}
+
+
+.lpn-cards-without-border.card-header{
+    padding: 0 0 6px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border-bottom: none;
+}
+
+.lpn-cards-without-border.card{
+    margin-bottom: 36px;
+}
+
+.lpn-cards-without-border.lpn-number-big-card.card{
+    margin-bottom: 36px;
+}
+
+.lpn-number-big{
+    color: var(--highliht-color);
+    font-size: 2.5rem;
+    margin-top: 14px;
+}
+
+.lpn-number-big-2{
+    color: var(--highliht-color);
+    font-size: 1.5rem;
+    font-family: var(--bs-font-monospace);
+}
+
+.lpn-billing-unit{
+    color: var(--highliht-color);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.lpn-previous{
+    font-size: 0.85rem;
+    color: var(--secondary-text-color);
+}
+
+.lpn-previous.lpn-hidden{
+    color: var(--bg-color);
+}
+
+
+
+
+.card-body{
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.lpn-cards-no-vertical-padding.card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card-body.inner-table{
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 12px;
+}

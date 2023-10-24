@@ -1,0 +1,5 @@
+.visualization-item {
+    font-family: var(----bs-body-font-family);
+    font-size: 125% ;
+    color: var(--primary-text-color);
+}

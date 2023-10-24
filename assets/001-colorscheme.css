@@ -1,0 +1,227 @@
+:root {
+    --color-white-100: #FFFFFF;
+
+    --color-aqua-100: #CFFDFD;
+    --color-aqua-200: #B2FCFB;
+    --color-aqua-300: #88CACA;
+    --color-aqua-400: #6FB0B0;
+    --color-aqua-500: #569696;
+    --color-aqua-600: #3D7C7C;
+    --color-aqua-700: #246262;
+
+    --color-navy-0: #809DCB;
+    --color-navy-25: #708CB1;
+    --color-navy-50: #607BA7;
+    --color-navy-75: #506A8D;
+    --color-navy-100: #405A73;
+
+
+    --color-aqua-400: #6FB0B0;
+    --color-aqua-500: #569696;
+    --color-aqua-600: #3D7C7C;
+    --color-aqua-700: #246262;
+
+    --color-navy-25: #708CB1;
+    --color-navy-75: #506A8D;
+    --color-navy-125: #374D67;
+    --color-navy-175: #0D2B2F;
+
+    --color-chart-green: #91cc75;
+    --color-chart-green-400: #7EBB67;
+    --color-chart-green-600: #6AA759;
+    --color-chart-green-800: #568C3C;
+
+    --color-cadmium-orange-100: #ed872d;
+    --color-cadmium-orange-300: #e5721a;
+    --color-cadmium-orange-500: #dd5d07;
+    --color-cadmium-orange-700: #b54a06;
+
+    --color-aqua-200: #B2FCFB;
+    --color-navy-highlight: #89A2D1;
+    --color-chart-green-highlight: #A2E88B;
+    --color-cadmium-orange-highlight: #FF9A4D;
+
+    --color-navy-175: #0D2B2F;  /* Already provided by you */
+    --color-aqua-muted: #2B4E4E;
+    --color-chart-green-muted: #2D4F36;
+    --color-cadmium-orange-muted: #3A3C29;
+
+    --color-navy-50: #607BA7;
+    --color-navy-0: #809DCB;
+
+     --color-chart-green: #91cc75; --color-aqua-500: #569696;--color-cadmium-orange-100: #ed872d;
+    --color-variation-1: #7EB365;
+    -color-variation-4: #A4D085;
+
+    --color-orange-op: rgba(237, 135, 45, 0.1);
+
+    --color-aqua-600: #3D7C7C;
+    --color-aqua-700: #246262;
+
+
+    --color-cadmium-orange-200: #ed772d;
+
+    --color-navy-110: #3A546B;
+    --color-navy-120: #344E63;
+    --color-navy-125: #374D67;
+    --color-navy-130: #2E485B;
+    --color-navy-140: #284253;
+    --color-navy-150: #223C4B;
+    --color-navy-160: #1C3643;
+    --color-navy-170: #16303B;
+    --color-navy-175: #0D2B2F;
+    --color-navy-180: #102A33;
+    --color-navy-190: #0A242B;
+
+    --color-navy-200: #102E44;
+    --color-navy-210: #0F2D42;
+    --color-navy-220: #0E2C40;
+    --color-navy-230: #0D2B3E;
+    --color-navy-240: #0C2A3C;
+    --color-navy-250: #0B293A;
+    --color-navy-260: #0A2838;
+    --color-navy-270: #092736;
+    --color-navy-280: #082634;
+    --color-navy-290: #072532;
+    --color-navy-300: #062430;
+
+    --color-navy-180: #102A33;
+    --color-aqua-700: #246262;
+    --color-alternating-2:  #6FB0B0;  /* Darkest Aqua */
+    --color-alternating-3:  #7EB365;  /* Medium-Dark Green */
+    --color-chart-green-muted: #495E38;
+
+
+    --color-navy-300: #081A24;
+    --color-navy-400: #101944;
+
+    --color-red-100: #FB8F8F;
+    --color-red-200: #C62828;
+
+    --color-brown-100: #BF360C;
+    --color-brown-200: #44361E;
+
+    --color-green-100: #B2FCE2;
+    --color-green-200: #A8E6CF;
+    --color-green-300: #9CCC65;
+    --color-green-400: #7CB342;
+    --color-green-500: #33691E;
+
+    --color-peach-100: #FFB3A7;
+
+    --color-orange-100: #FF7043;
+
+    --color-limegreen: #2ECC71;
+
+    --bg-color: var(--color-navy-200);
+    --secondary-bg-color: var(--color-navy-220);
+    --lpn-bg-dark: var(--color-navy-100);
+
+    --border-color: var(--color-aqua-300);
+
+    --highliht-color: var(--color-aqua-200);
+
+    --primary-text-color: var(--color-aqua-300);
+    --secondary-text-color: var(--color-aqua-400);
+
+
+    --bs-body-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-heading-color: var(--color-aqua-200);
+    --bs-border-radius: 0.375rem;
+    --bs-border-width: 1px;
+    --bs-navbar-nav-link-padding-x: 3rem;
+    --bs-body-text-align: start;
+
+
+    --bg-color: #102E44;
+    --highlight-color: #B2FCFB;
+    --primary-text-color: #88CACA;
+
+    --color-chart-green: #91cc75;
+
+    --color-navy-100: #405A73
+
+}
+
+chart-colors {
+    --color-chart-green: #91cc75;
+    --color-variation-1: #7EB365;
+    -color-variation-4: #A4D085;
+    --color-variation-7: #BDE3A5;
+
+    --color-chart-12: #1E8A93;
+    --color-chart-1: #2E4A63;
+
+    --color-variation-1: #7EB365;
+    --color-variation-2: #1A7A83;
+    --color-variation-3: #28445C;
+    --color-variation-4: #A4D085;
+    --color-variation-5: #149AA3;
+    --color-variation-6: #1E3A53;
+    --color-variation-7: #BDE3A5;
+    --color-variation-8: #0EA8C3;
+    --color-variation-9: #14304A;
+
+    --highlight-variation-1: #9ECB87;
+    --highlight-variation-5: #3AB0D3;
+    --highlight-variation-3: #3A5A73;
+
+    --highlight-variation-4: #C6E8B7;
+    --highlight-variation-2: #2C8C9E;
+    --highlight-variation-6: #2E4A63;
+    --highlight-variation-7: #DEF6C9;
+    --highlight-variation-8: #4CC8E3;
+    --highlight-variation-9: #2E4A63;
+
+
+    --color-extended-1:  #7EB365;
+    --color-extended-2:  #1A7A83;
+    --color-extended-3:  #28445C;
+    --color-extended-4:  #A4D085;
+    --color-extended-5:  #149AA3;
+    --color-extended-6:  #1E3A53;
+    --color-extended-7:  #BDE3A5;
+    --color-extended-8:  #0EA8C3;
+    --color-extended-9:  #14304A;
+    --color-extended-10: #D1EAC2;
+    --color-extended-11: #0C7A95;
+    --color-extended-12: #102439;
+    --color-extended-13: #C6E7B0;
+    --color-extended-14: #117C8B;
+    --color-extended-15: #1B2F40;
+    --color-extended-16: #9DBE84;
+
+
+    --color-muted-alternating-1: #1F2E3A;  /* Darkest Navy */
+    --color-muted-alternating-2: #1F4A4A;  /* Darkest Aqua */
+    --color-muted-alternating-3: #4A5F44;  /* Dark Green */
+    --color-muted-alternating-4: #1B2B32;  /* Dark Navy */
+    --color-muted-alternating-5: #1D5054;  /* Dark Aqua */
+    --color-muted-alternating-6: #5B6B57;  /* Dark Green */
+
+
+    --color-alternating-1:  #28445C;  /* Darkest Navy */
+    --color-alternating-2:  #6FB0B0;  /* Darkest Aqua */
+    --color-alternating-3:  #7EB365;  /* Medium-Dark Green */
+    --color-alternating-4:  #374D67;  /* Dark Navy */
+    --color-alternating-5:  #569696;  /* Medium Aqua */
+    --color-alternating-6:  #9DBE84;  /* Medium Green */
+    --color-alternating-7:  #506A8D;  /* Bright Navy */
+    --color-alternating-8:  #3D7C7C;  /* Darker Aqua */
+    --color-alternating-9:  #A4D085;  /* Medium Light Green */
+    --color-alternating-10: #708CB1;  /* Brightest Navy */
+    --color-alternating-11: #246262;  /* Dark Aqua */
+    --color-alternating-12: #BDE3A5;  /* Slightly Darker Green */
+    --color-alternating-13: #1A7A83;  /* Medium-Dark Aqua */
+    --color-alternating-14: #C6E7B0;  /* Another Light Green */
+    --color-alternating-15: #0EA8C3;  /* Brightest Aqua */
+    --color-alternating-16: #D1EAC2;  /* Lightest Green */
+
+    --color-navy-220: #0E2C40;
+    --color-navy-250: #0B293A;
+    --color-navy-280: #082634;
+    --color-navy-300: #062430;
+}
+
